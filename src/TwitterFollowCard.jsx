@@ -26,7 +26,8 @@ export function TwitterFollowCard({children, user, }){
         </header>
         <aside className={"tw-followCard-aside"}>
             <button className={buttonClassName} onClick={handleClick}>
-                {text}
+              <span className="tw-followCard-textOne">{text}</span>
+              <span className="tw-followCard-textTwo">Dejar de seguir</span>
             </button>
         </aside>                                    
     </article>
